@@ -10,6 +10,8 @@ public class UIController : MonoBehaviour {
 
     public GameObject objetoTexto;
     public Text textoPantalla;
+
+    public Animator chaman;
     // Use this for initialization
     void Start () {
         objetoTexto.SetActive(false);
@@ -27,6 +29,7 @@ public class UIController : MonoBehaviour {
       fireMeteorites= GameObject.FindGameObjectsWithTag("FireMeteorite");
       foreach (GameObject a in fireMeteorites)
         {
+          //  chaman.SetBool("lanza", true);
             Destroy(a);
           //  GameManager.nMeteoritos += 1;
         }
@@ -36,6 +39,7 @@ public class UIController : MonoBehaviour {
         earthMeteorites = GameObject.FindGameObjectsWithTag("EarthMeteorite");
         foreach (GameObject a in earthMeteorites)
         {
+           // chaman.SetBool("lanza", true);
             Destroy(a);
           //  GameManager.nMeteoritos += 1;
         }
@@ -45,8 +49,10 @@ public class UIController : MonoBehaviour {
         iceMeteorites = GameObject.FindGameObjectsWithTag("IceMeteorite");
         foreach (GameObject a in iceMeteorites)
         {
+           // chaman.SetBool("lanza", true);
             Destroy(a);
            // GameManager.nMeteoritos += 1;
         }
     }
+
 }

@@ -1,9 +1,39 @@
 fileFormatVersion: 2
 guid: ca65a3bed2f273447be43f21ab5d03a9
-timeCreated: 1490201787
+timeCreated: 1490204861
 licenseType: Free
 TextureImporter:
-  fileIDToRecycleName: {}
+  fileIDToRecycleName:
+    21300000: lanzamiento_0
+    21300002: lanzamiento_1
+    21300004: lanzamiento_2
+    21300006: lanzamiento_3
+    21300008: lanzamiento_4
+    21300010: lanzamiento_5
+    21300012: lanzamiento_6
+    21300014: lanzamiento_7
+    21300016: lanzamiento_8
+    21300018: lanzamiento_9
+    21300020: lanzamiento_10
+    21300022: lanzamiento_11
+    21300024: lanzamiento_12
+    21300026: lanzamiento_13
+    21300028: lanzamiento_14
+    21300030: lanzamiento_15
+    21300032: lanzamiento_16
+    21300034: lanzamiento_17
+    21300036: lanzamiento_18
+    21300038: lanzamiento_19
+    21300040: lanzamiento_20
+    21300042: lanzamiento_21
+    21300044: lanzamiento_22
+    21300046: lanzamiento_23
+    21300048: lanzamiento_24
+    21300050: lanzamiento_25
+    21300052: lanzamiento_26
+    21300054: lanzamiento_27
+    21300056: lanzamiento_28
+    21300058: lanzamiento_29
   serializedVersion: 4
   mipmaps:
     mipMapMode: 0
@@ -34,7 +64,7 @@ TextureImporter:
   nPOTScale: 0
   lightmap: 0
   compressionQuality: 50
-  spriteMode: 1
+  spriteMode: 2
   spriteExtrude: 1
   spriteMeshType: 1
   alignment: 0
@@ -58,9 +88,423 @@ TextureImporter:
     crunchedCompression: 0
     allowsAlphaSplitting: 0
     overridden: 0
+  - buildTarget: Standalone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: iPhone
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+  - buildTarget: Android
+    maxTextureSize: 2048
+    textureFormat: -1
+    textureCompression: 1
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
   spriteSheet:
     serializedVersion: 2
-    sprites: []
+    sprites:
+    - serializedVersion: 2
+      name: lanzamiento_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3115
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_1
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 3115
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_2
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 3115
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_3
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 3115
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_4
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 3115
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_5
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 3115
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_6
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 2337
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_7
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 2337
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_8
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 2337
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_9
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 2337
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_10
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 2337
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_11
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 2337
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_12
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 1559
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_13
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 1559
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_14
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 1559
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_15
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 1559
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_16
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 1559
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_17
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 1559
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_18
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 781
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_19
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 781
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_20
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 781
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_21
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 781
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_22
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 781
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_23
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 781
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_24
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 3
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_25
+      rect:
+        serializedVersion: 2
+        x: 770
+        y: 3
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_26
+      rect:
+        serializedVersion: 2
+        x: 1540
+        y: 3
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_27
+      rect:
+        serializedVersion: 2
+        x: 2310
+        y: 3
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_28
+      rect:
+        serializedVersion: 2
+        x: 3080
+        y: 3
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
+    - serializedVersion: 2
+      name: lanzamiento_29
+      rect:
+        serializedVersion: 2
+        x: 3850
+        y: 3
+        width: 770
+        height: 778
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      tessellationDetail: 0
     outline: []
   spritePackingTag: 
   userData: 
