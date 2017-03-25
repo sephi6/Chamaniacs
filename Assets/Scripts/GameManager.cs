@@ -20,6 +20,8 @@ public class GameManager : MonoBehaviour {
 
     public static bool spawn;
 
+    public static int score;
+
 
 
 	// Use this for initialization
@@ -28,12 +30,15 @@ public class GameManager : MonoBehaviour {
         points = 0;
         nMeteoritos = 0;
         spawn = true;
+        score = 0;
         
         
 	}
 	
 	// Update is called once per frame
 	void Update () {
+
+        pierdeVida();
 
         if (lives <= 0)
         {
@@ -67,8 +72,9 @@ public class GameManager : MonoBehaviour {
     {
        
        // Debug.Log("GAMEOVER2");
-        ui.textoPantalla.text = "GAMEOVER";
-        ui.objetoTexto.SetActive(true);
+        //ui.textoPantalla.text = "GAMEOVER";
+       //// ui.objetoTexto.SetActive(true);
+        ui.muestraPanel();
         
         
     }
@@ -77,5 +83,10 @@ public class GameManager : MonoBehaviour {
     {
         ui.textoPantalla.text = "Wave " +oleada;
         ui.objetoTexto.SetActive(true);
+    }
+
+    public void pierdeVida() {
+        ui.lives.text = lives.ToString();
+
     }
 }

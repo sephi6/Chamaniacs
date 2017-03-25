@@ -22,6 +22,7 @@ public class DestroyMeteorite : MonoBehaviour {
         {
             destruyeMeteorito(col.gameObject);
             GameManager.lives -= 1;
+            
             //Debug.Log(GameManager.lives);
             //GameManager.nMeteoritos += 1;
         }
