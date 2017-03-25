@@ -11,7 +11,9 @@ public class UIController : MonoBehaviour {
     public GameObject objetoTexto;
     public Text textoPantalla;
 
-    public Animator chaman;
+    public Chaman chaman;
+
+    public GameObject particula;
     // Use this for initialization
     void Start () {
         objetoTexto.SetActive(false);
@@ -21,38 +23,53 @@ public class UIController : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-	
+	    
 	}
 
     public void DestroyFire()
     {
       fireMeteorites= GameObject.FindGameObjectsWithTag("FireMeteorite");
-      foreach (GameObject a in fireMeteorites)
+        chaman.lanzaAnimacion();
+        foreach (GameObject a in fireMeteorites)
         {
-          //  chaman.SetBool("lanza", true);
-            Destroy(a);
+            //  chaman.SetBool("lanza", true);
+            //  Destroy(a);
+            destruyeMeteorito(a);
+            
           //  GameManager.nMeteoritos += 1;
         }
     }
     public void DestroyEarth()
     {
         earthMeteorites = GameObject.FindGameObjectsWithTag("EarthMeteorite");
+        chaman.lanzaAnimacion();
         foreach (GameObject a in earthMeteorites)
         {
            // chaman.SetBool("lanza", true);
-            Destroy(a);
-          //  GameManager.nMeteoritos += 1;
+           // Destroy(a);
+            destruyeMeteorito(a);
+            
+            //  GameManager.nMeteoritos += 1;
         }
     }
     public void DestroyIce()
     {
         iceMeteorites = GameObject.FindGameObjectsWithTag("IceMeteorite");
+        chaman.lanzaAnimacion();
         foreach (GameObject a in iceMeteorites)
         {
-           // chaman.SetBool("lanza", true);
-            Destroy(a);
-           // GameManager.nMeteoritos += 1;
+            // chaman.SetBool("lanza", true);
+            // Destroy(a);
+            destruyeMeteorito(a);
+            
+            // GameManager.nMeteoritos += 1;
         }
+    }
+    public void destruyeMeteorito(GameObject a)
+    {
+
+        Instantiate(particula, new Vector2(a.transform.position.x, a.transform.position.y), Quaternion.identity);
+        Destroy(a);
     }
 
 }
